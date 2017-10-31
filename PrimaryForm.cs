@@ -65,24 +65,18 @@ namespace RSound_A
             try {
                 List<BigInteger> oneLineOfPixel = new List<BigInteger>();
 
-                for (int ii = 0; ii < cryptedPic.Width; ii++) {
-                      for (int jj = 0; jj < cryptedPic.Height; jj++)  {
+                for (int X = 0; X < cryptedPic.Width; X++) {
+                      for (int Y = 0; Y < cryptedPic.Height; Y++)  {
 
-                       Color pixelColor = cryptedPic.GetPixel(ii, jj);
-
+                        Color pixelColor = cryptedPic.GetPixel(X, Y);                             
                         BigInteger.TryParse(pixelColor.ToArgb().ToString(), out BigInteger pixelToArgb);
-                        BigInteger.TryParse(pixelColor.R.ToString(), out BigInteger R);
-                        BigInteger.TryParse(pixelColor.G.ToString(), out BigInteger G);
-                        BigInteger.TryParse(pixelColor.B.ToString(), out BigInteger B);
+                        Color cryptedPixel = Color.FromArgb((int)(PreparedRSA.Crypt(pixelToArgb) % 2147483647));
 
                         oneLineOfPixel.Add(PreparedRSA.Crypt(pixelToArgb));
-
-                        int futureArgb = (int)(PreparedRSA.Crypt(B + R + G) % 2147483647);
-                        Color cryptedPixel = Color.FromArgb(futureArgb);
-
-                        cryptedPic.SetPixel(ii, jj, cryptedPixel);
+                        cryptedPic.SetPixel(X, Y, cryptedPixel);
 
                      }
+
                     mesPixels.Add(oneLineOfPixel);
                     oneLineOfPixel = new List<BigInteger>();
                 }
@@ -105,11 +99,12 @@ namespace RSound_A
 
              try {
 
-                for (int ii = 0; ii < cryptedPic.Width; ii++) {
-                    for (int jj = 0; jj < cryptedPic.Height ; jj++) {                         
+                for (int X = 0; X < cryptedPic.Width; X++) {
+                    for (int Y = 0; Y < cryptedPic.Height ; Y++) {
 
-                      Color decryptedPixel = Color.FromArgb((int)PreparedRSA.Decrypt(mesPixels[ii][jj]));
-                      cryptedPic.SetPixel(ii, jj, decryptedPixel);
+ 
+                      Color decryptedPixel = Color.FromArgb((int)PreparedRSA.Decrypt(mesPixels[X][Y]));
+                      cryptedPic.SetPixel(X, Y, decryptedPixel);
 
  
                     }
@@ -134,10 +129,9 @@ namespace RSound_A
             privateKeyLabel.Text = PreparedRSA.GetPrivateKey().ToString();
             flatLabel9.Text = PreparedRSA.GetPublickey()[0] + " & " + myRSA.GetPublickey()[1];
             flatLabel6.Text = PreparedRSA.Crypt(Convert.ToInt32(flatNumeric2.Value)).ToString();
-
             BigInteger.TryParse(flatLabel6.Text, out BigInteger toDecrypt);
-
             lblD.Text = PreparedRSA.Decrypt(toDecrypt).ToString();
+
         }
         private void FlatButton2_Click(object sender, EventArgs e)
         {
