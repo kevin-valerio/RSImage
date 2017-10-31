@@ -1,0 +1,64 @@
+C:\Users\Utilisateur\Desktop\RSound-A-master\RSound-A-master\RSound-A\bin\Debug\RSound-A.exe.config
+C:\Users\Utilisateur\Desktop\RSound-A-master\RSound-A-master\RSound-A\bin\Debug\RSound-A.exe
+C:\Users\Utilisateur\Desktop\RSound-A-master\RSound-A-master\RSound-A\bin\Debug\RSound-A.pdb
+C:\Users\Utilisateur\Desktop\RSound-A-master\RSound-A-master\RSound-A\bin\Debug\NAudio.dll
+C:\Users\Utilisateur\Desktop\RSound-A-master\RSound-A-master\RSound-A\obj\Debug\RSound-A.csprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\RSound-A-master\RSound-A-master\RSound-A\obj\Debug\RSound_A.PrimaryForm.resources
+C:\Users\Utilisateur\Desktop\RSound-A-master\RSound-A-master\RSound-A\obj\Debug\RSound_A.Properties.Resources.resources
+C:\Users\Utilisateur\Desktop\RSound-A-master\RSound-A-master\RSound-A\obj\Debug\RSound-A.csproj.GenerateResource.Cache
+C:\Users\Utilisateur\Desktop\RSound-A-master\RSound-A-master\RSound-A\obj\Debug\RSound-A.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\RSound-A-master\RSound-A-master\RSound-A\obj\Debug\RSound-A.exe
+C:\Users\Utilisateur\Desktop\RSound-A-master\RSound-A-master\RSound-A\obj\Debug\RSound-A.pdb
+C:\Users\Utilisateur\Desktop\RSound-A-master (2)\RSound-A-master\RSound-A\obj\Debug\RSound_A.PrimaryForm.resources
+C:\Users\Utilisateur\Desktop\RSound-A-master (2)\RSound-A-master\RSound-A\obj\Debug\RSound_A.Properties.Resources.resources
+C:\Users\Utilisateur\Desktop\RSound-A-master (2)\RSound-A-master\RSound-A\obj\Debug\RSound-A.csproj.GenerateResource.Cache
+C:\Users\Utilisateur\Desktop\RSound-A-master (2)\RSound-A-master\RSound-A\obj\Debug\RSound-A.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\RSound-A-master (2)\RSound-A-master\RSound-A\bin\Debug\RSound-A.exe.config
+C:\Users\Utilisateur\Desktop\RSound-A-master (2)\RSound-A-master\RSound-A\bin\Debug\RSound-A.exe
+C:\Users\Utilisateur\Desktop\RSound-A-master (2)\RSound-A-master\RSound-A\bin\Debug\RSound-A.pdb
+C:\Users\Utilisateur\Desktop\RSound-A-master (2)\RSound-A-master\RSound-A\bin\Debug\NAudio.dll
+C:\Users\Utilisateur\Desktop\RSound-A-master (2)\RSound-A-master\RSound-A\obj\Debug\RSound-A.exe
+C:\Users\Utilisateur\Desktop\RSound-A-master (2)\RSound-A-master\RSound-A\obj\Debug\RSound-A.pdb
+C:\Users\Utilisateur\Desktop\RSound-A-master (2)\RSound-A-master\RSound-A\obj\Debug\RSound-A.csprojResolveAssemblyReference.cache
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RSound-A-master\RSound-A\bin\Debug\RSound-A.exe.config
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RSound-A-master\RSound-A\bin\Debug\RSound-A.exe
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RSound-A-master\RSound-A\bin\Debug\RSound-A.pdb
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RSound-A-master\RSound-A\bin\Debug\NAudio.dll
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RSound-A-master\RSound-A\obj\Debug\RSound-A.csprojResolveAssemblyReference.cache
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RSound-A-master\RSound-A\obj\Debug\RSound_A.PrimaryForm.resources
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RSound-A-master\RSound-A\obj\Debug\RSound_A.Properties.Resources.resources
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RSound-A-master\RSound-A\obj\Debug\RSound-A.csproj.GenerateResource.Cache
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RSound-A-master\RSound-A\obj\Debug\RSound-A.csproj.CoreCompileInputs.cache
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RSound-A-master\RSound-A\obj\Debug\RSound-A.exe
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RSound-A-master\RSound-A\obj\Debug\RSound-A.pdb
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RImageA\RSound-A\bin\Debug\RSound-A.exe.config
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RImageA\RSound-A\bin\Debug\RSound-A.exe
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RImageA\RSound-A\bin\Debug\RSound-A.pdb
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RImageA\RSound-A\bin\Debug\NAudio.dll
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RImageA\RSound-A\obj\Debug\RSound_A.PrimaryForm.resources
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RImageA\RSound-A\obj\Debug\RSound_A.Properties.Resources.resources
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RImageA\RSound-A\obj\Debug\RSound-A.csproj.GenerateResource.Cache
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RImageA\RSound-A\obj\Debug\RSound-A.csproj.CoreCompileInputs.cache
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RImageA\RSound-A\obj\Debug\RSound-A.exe
+C:\Users\MIKSS\Desktop\RSound-A-master (3)\RImageA\RSound-A\obj\Debug\RSound-A.pdb
+C:\Users\Utilisateur\Desktop\Image rsa\RSound-A\bin\Debug\RSound-A.exe.config
+C:\Users\Utilisateur\Desktop\Image rsa\RSound-A\bin\Debug\RSound-A.exe
+C:\Users\Utilisateur\Desktop\Image rsa\RSound-A\bin\Debug\RSound-A.pdb
+C:\Users\Utilisateur\Desktop\Image rsa\RSound-A\bin\Debug\NAudio.dll
+C:\Users\Utilisateur\Desktop\Image rsa\RSound-A\obj\Debug\RSound-A.csprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\Image rsa\RSound-A\obj\Debug\RSound_A.PrimaryForm.resources
+C:\Users\Utilisateur\Desktop\Image rsa\RSound-A\obj\Debug\RSound_A.Properties.Resources.resources
+C:\Users\Utilisateur\Desktop\Image rsa\RSound-A\obj\Debug\RSound-A.csproj.GenerateResource.Cache
+C:\Users\Utilisateur\Desktop\Image rsa\RSound-A\obj\Debug\RSound-A.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\Image rsa\RSound-A\obj\Debug\RSound-A.exe
+C:\Users\Utilisateur\Desktop\Image rsa\RSound-A\obj\Debug\RSound-A.pdb
+C:\Users\Utilisateur\Desktop\Image rsa\RSImage\obj\Debug\RSound-A.csprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\Image rsa\RSImage\obj\Debug\RSound_A.PrimaryForm.resources
+C:\Users\Utilisateur\Desktop\Image rsa\RSImage\obj\Debug\RSound_A.Properties.Resources.resources
+C:\Users\Utilisateur\Desktop\Image rsa\RSImage\obj\Debug\RSound-A.csproj.GenerateResource.Cache
+C:\Users\Utilisateur\Desktop\Image rsa\RSImage\obj\Debug\RSound-A.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\Image rsa\RSImage\obj\Debug\RSound-A.exe
+C:\Users\Utilisateur\Desktop\Image rsa\RSImage\obj\Debug\RSound-A.pdb
+C:\Users\Utilisateur\Desktop\Image rsa\RSImage\bin\Debug\RSound-A.exe.config
+C:\Users\Utilisateur\Desktop\Image rsa\RSImage\bin\Debug\RSound-A.exe
+C:\Users\Utilisateur\Desktop\Image rsa\RSImage\bin\Debug\RSound-A.pdb
