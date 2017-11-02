@@ -73,6 +73,15 @@ namespace Encryption
             return  BigInteger.ModPow(M, e, mod);
         }
 
+        internal void SetPublicKey(List<BigInteger> publicKey)
+        {
+            publickey = publicKey;
+        }
+
+        internal void SetPrivateKey(BigInteger newPrivateKey)
+        {
+            privateKey = newPrivateKey;
+        }
     }
 
 }

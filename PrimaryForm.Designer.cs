@@ -60,12 +60,20 @@
             this.flatButton1 = new FlatUI.FlatButton();
             this.flatLabel2 = new FlatUI.FlatLabel();
             this.flatNumeric1 = new FlatUI.FlatNumeric();
-            this.flatGroupBox1 = new FlatUI.FlatGroupBox();
+            this.flatGroupBox5 = new FlatUI.FlatGroupBox();
+            this.exportPic = new FlatUI.FlatToggle();
+            this.flatLabel8 = new FlatUI.FlatLabel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.flatButton5 = new FlatUI.FlatButton();
+            this.flatLabel1 = new FlatUI.FlatLabel();
+            this.isExportKeyWanted = new FlatUI.FlatToggle();
             this.flatButton4 = new FlatUI.FlatButton();
             this.statusLbl = new FlatUI.FlatAlertBox();
-            this.importBtn = new FlatUI.FlatButton();
-            this.btnCrypt = new FlatUI.FlatButton();
+            this.flatButton6 = new FlatUI.FlatButton();
+            this.flatButton7 = new FlatUI.FlatButton();
             this.txtBoxSoundPath = new FlatUI.FlatTextBox();
+            this.flatGroupBox1 = new FlatUI.FlatGroupBox();
+            this.importBtn = new FlatUI.FlatButton();
             this.flatMini1 = new FlatUI.FlatMini();
             this.flatClose1 = new FlatUI.FlatClose();
             this.RSImage.SuspendLayout();
@@ -73,6 +81,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flatGroupBox2.SuspendLayout();
             this.flatGroupBox3.SuspendLayout();
+            this.flatGroupBox5.SuspendLayout();
             this.flatGroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,6 +101,7 @@
             this.RSImage.Controls.Add(this.flatLabel13);
             this.RSImage.Controls.Add(this.flatButton3);
             this.RSImage.Controls.Add(this.flatGroupBox2);
+            this.RSImage.Controls.Add(this.flatGroupBox5);
             this.RSImage.Controls.Add(this.flatGroupBox1);
             this.RSImage.Controls.Add(this.flatMini1);
             this.RSImage.Controls.Add(this.flatClose1);
@@ -112,10 +122,10 @@
             this.flatGroupBox4.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
             this.flatGroupBox4.Controls.Add(this.pictureBox1);
             this.flatGroupBox4.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.flatGroupBox4.Location = new System.Drawing.Point(603, 55);
+            this.flatGroupBox4.Location = new System.Drawing.Point(603, 51);
             this.flatGroupBox4.Name = "flatGroupBox4";
             this.flatGroupBox4.ShowText = true;
-            this.flatGroupBox4.Size = new System.Drawing.Size(483, 436);
+            this.flatGroupBox4.Size = new System.Drawing.Size(483, 455);
             this.flatGroupBox4.TabIndex = 37;
             this.flatGroupBox4.Text = "Preview";
             // 
@@ -151,7 +161,7 @@
             this.txtD.Multiline = false;
             this.txtD.Name = "txtD";
             this.txtD.ReadOnly = false;
-            this.txtD.Size = new System.Drawing.Size(162, 29);
+            this.txtD.Size = new System.Drawing.Size(173, 29);
             this.txtD.TabIndex = 35;
             this.txtD.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtD.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
@@ -178,7 +188,7 @@
             this.txtN.Multiline = false;
             this.txtN.Name = "txtN";
             this.txtN.ReadOnly = false;
-            this.txtN.Size = new System.Drawing.Size(174, 29);
+            this.txtN.Size = new System.Drawing.Size(185, 29);
             this.txtN.TabIndex = 22;
             this.txtN.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtN.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
@@ -219,7 +229,7 @@
             this.nbrToDecrypt.Maximum = ((long)(999999999999999999));
             this.nbrToDecrypt.Minimum = ((long)(-999999999999999999));
             this.nbrToDecrypt.Name = "nbrToDecrypt";
-            this.nbrToDecrypt.Size = new System.Drawing.Size(141, 30);
+            this.nbrToDecrypt.Size = new System.Drawing.Size(150, 30);
             this.nbrToDecrypt.TabIndex = 31;
             this.nbrToDecrypt.Value = ((long)(0));
             // 
@@ -241,10 +251,10 @@
             this.flatButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
             this.flatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.flatButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flatButton3.Location = new System.Drawing.Point(295, 459);
+            this.flatButton3.Location = new System.Drawing.Point(297, 459);
             this.flatButton3.Name = "flatButton3";
             this.flatButton3.Rounded = false;
-            this.flatButton3.Size = new System.Drawing.Size(295, 32);
+            this.flatButton3.Size = new System.Drawing.Size(289, 32);
             this.flatButton3.TabIndex = 31;
             this.flatButton3.Text = "Build decrypted message";
             this.flatButton3.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
@@ -286,10 +296,10 @@
             this.flatGroupBox3.Controls.Add(this.flatLabel12);
             this.flatGroupBox3.Controls.Add(this.flatNumeric2);
             this.flatGroupBox3.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.flatGroupBox3.Location = new System.Drawing.Point(-9, -14);
+            this.flatGroupBox3.Location = new System.Drawing.Point(-9, -12);
             this.flatGroupBox3.Name = "flatGroupBox3";
             this.flatGroupBox3.ShowText = true;
-            this.flatGroupBox3.Size = new System.Drawing.Size(523, 230);
+            this.flatGroupBox3.Size = new System.Drawing.Size(589, 230);
             this.flatGroupBox3.TabIndex = 31;
             this.flatGroupBox3.Text = "Testing RSA";
             // 
@@ -523,22 +533,106 @@
             this.flatNumeric1.Text = "flatNumeric1";
             this.flatNumeric1.Value = ((long)(0));
             // 
-            // flatGroupBox1
+            // flatGroupBox5
             // 
-            this.flatGroupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.flatGroupBox1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
-            this.flatGroupBox1.Controls.Add(this.flatButton4);
-            this.flatGroupBox1.Controls.Add(this.statusLbl);
-            this.flatGroupBox1.Controls.Add(this.importBtn);
-            this.flatGroupBox1.Controls.Add(this.btnCrypt);
-            this.flatGroupBox1.Controls.Add(this.txtBoxSoundPath);
-            this.flatGroupBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.flatGroupBox1.Location = new System.Drawing.Point(116, 54);
-            this.flatGroupBox1.Name = "flatGroupBox1";
-            this.flatGroupBox1.ShowText = true;
-            this.flatGroupBox1.Size = new System.Drawing.Size(358, 245);
-            this.flatGroupBox1.TabIndex = 17;
-            this.flatGroupBox1.Text = "                              Import your image";
+            this.flatGroupBox5.BackColor = System.Drawing.Color.Transparent;
+            this.flatGroupBox5.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
+            this.flatGroupBox5.Controls.Add(this.exportPic);
+            this.flatGroupBox5.Controls.Add(this.flatLabel8);
+            this.flatGroupBox5.Controls.Add(this.linkLabel1);
+            this.flatGroupBox5.Controls.Add(this.flatButton5);
+            this.flatGroupBox5.Controls.Add(this.flatLabel1);
+            this.flatGroupBox5.Controls.Add(this.isExportKeyWanted);
+            this.flatGroupBox5.Controls.Add(this.flatButton4);
+            this.flatGroupBox5.Controls.Add(this.statusLbl);
+            this.flatGroupBox5.Controls.Add(this.flatButton6);
+            this.flatGroupBox5.Controls.Add(this.flatButton7);
+            this.flatGroupBox5.Controls.Add(this.txtBoxSoundPath);
+            this.flatGroupBox5.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.flatGroupBox5.Location = new System.Drawing.Point(3, 49);
+            this.flatGroupBox5.Name = "flatGroupBox5";
+            this.flatGroupBox5.ShowText = true;
+            this.flatGroupBox5.Size = new System.Drawing.Size(596, 236);
+            this.flatGroupBox5.TabIndex = 17;
+            this.flatGroupBox5.Text = "                                             Import your image";
+            // 
+            // exportPic
+            // 
+            this.exportPic.BackColor = System.Drawing.Color.Transparent;
+            this.exportPic.Checked = true;
+            this.exportPic.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.exportPic.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.exportPic.Location = new System.Drawing.Point(461, 179);
+            this.exportPic.Name = "exportPic";
+            this.exportPic.Options = FlatUI.FlatToggle._Options.Style1;
+            this.exportPic.Size = new System.Drawing.Size(76, 33);
+            this.exportPic.TabIndex = 42;
+            this.exportPic.Text = "flatToggle1";
+            // 
+            // flatLabel8
+            // 
+            this.flatLabel8.AutoSize = true;
+            this.flatLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.flatLabel8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flatLabel8.ForeColor = System.Drawing.Color.White;
+            this.flatLabel8.Location = new System.Drawing.Point(250, 184);
+            this.flatLabel8.Name = "flatLabel8";
+            this.flatLabel8.Size = new System.Drawing.Size(216, 21);
+            this.flatLabel8.TabIndex = 41;
+            this.flatLabel8.Text = "Export the encrypted picture : ";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.Red;
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.linkLabel1.Location = new System.Drawing.Point(132, 189);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(15, 19);
+            this.linkLabel1.TabIndex = 40;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "?";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
+            // 
+            // flatButton5
+            // 
+            this.flatButton5.BackColor = System.Drawing.Color.Gray;
+            this.flatButton5.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
+            this.flatButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.flatButton5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flatButton5.Location = new System.Drawing.Point(405, 76);
+            this.flatButton5.Name = "flatButton5";
+            this.flatButton5.Rounded = false;
+            this.flatButton5.Size = new System.Drawing.Size(132, 42);
+            this.flatButton5.TabIndex = 39;
+            this.flatButton5.Text = "Import keys";
+            this.flatButton5.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
+            this.flatButton5.Click += new System.EventHandler(this.FlatButton5_Click);
+            // 
+            // flatLabel1
+            // 
+            this.flatLabel1.AutoSize = true;
+            this.flatLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.flatLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flatLabel1.ForeColor = System.Drawing.Color.White;
+            this.flatLabel1.Location = new System.Drawing.Point(13, 186);
+            this.flatLabel1.Name = "flatLabel1";
+            this.flatLabel1.Size = new System.Drawing.Size(122, 21);
+            this.flatLabel1.TabIndex = 38;
+            this.flatLabel1.Text = "Export the keys :";
+            // 
+            // isExportKeyWanted
+            // 
+            this.isExportKeyWanted.BackColor = System.Drawing.Color.Transparent;
+            this.isExportKeyWanted.Checked = true;
+            this.isExportKeyWanted.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.isExportKeyWanted.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.isExportKeyWanted.Location = new System.Drawing.Point(155, 179);
+            this.isExportKeyWanted.Name = "isExportKeyWanted";
+            this.isExportKeyWanted.Options = FlatUI.FlatToggle._Options.Style1;
+            this.isExportKeyWanted.Size = new System.Drawing.Size(76, 33);
+            this.isExportKeyWanted.TabIndex = 37;
+            this.isExportKeyWanted.Text = "flatToggle1";
             // 
             // flatButton4
             // 
@@ -546,10 +640,10 @@
             this.flatButton4.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
             this.flatButton4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.flatButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flatButton4.Location = new System.Drawing.Point(184, 182);
+            this.flatButton4.Location = new System.Drawing.Point(185, 129);
             this.flatButton4.Name = "flatButton4";
             this.flatButton4.Rounded = false;
-            this.flatButton4.Size = new System.Drawing.Size(171, 32);
+            this.flatButton4.Size = new System.Drawing.Size(171, 40);
             this.flatButton4.TabIndex = 36;
             this.flatButton4.Text = "Decrypt the picture";
             this.flatButton4.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
@@ -563,10 +657,69 @@
             this.statusLbl.kind = FlatUI.FlatAlertBox._Kind.Info;
             this.statusLbl.Location = new System.Drawing.Point(17, 76);
             this.statusLbl.Name = "statusLbl";
-            this.statusLbl.Size = new System.Drawing.Size(324, 42);
+            this.statusLbl.Size = new System.Drawing.Size(382, 42);
             this.statusLbl.TabIndex = 19;
             this.statusLbl.Text = "You need to import a sound";
             this.statusLbl.Visible = false;
+            // 
+            // flatButton6
+            // 
+            this.flatButton6.BackColor = System.Drawing.Color.Transparent;
+            this.flatButton6.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
+            this.flatButton6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.flatButton6.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.flatButton6.Location = new System.Drawing.Point(383, 129);
+            this.flatButton6.Name = "flatButton6";
+            this.flatButton6.Rounded = false;
+            this.flatButton6.Size = new System.Drawing.Size(154, 39);
+            this.flatButton6.TabIndex = 15;
+            this.flatButton6.Text = "Browse image";
+            this.flatButton6.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
+            this.flatButton6.Click += new System.EventHandler(this.ImportBtn_Click_1);
+            // 
+            // flatButton7
+            // 
+            this.flatButton7.BackColor = System.Drawing.Color.Transparent;
+            this.flatButton7.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
+            this.flatButton7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.flatButton7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flatButton7.Location = new System.Drawing.Point(17, 129);
+            this.flatButton7.Name = "flatButton7";
+            this.flatButton7.Rounded = false;
+            this.flatButton7.Size = new System.Drawing.Size(141, 40);
+            this.flatButton7.TabIndex = 16;
+            this.flatButton7.Text = "Crypt the picture";
+            this.flatButton7.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
+            this.flatButton7.Click += new System.EventHandler(this.BtnCrypt_Click_1);
+            // 
+            // txtBoxSoundPath
+            // 
+            this.txtBoxSoundPath.BackColor = System.Drawing.Color.Transparent;
+            this.txtBoxSoundPath.FocusOnHover = false;
+            this.txtBoxSoundPath.Location = new System.Drawing.Point(17, 41);
+            this.txtBoxSoundPath.MaxLength = 32767;
+            this.txtBoxSoundPath.Multiline = false;
+            this.txtBoxSoundPath.Name = "txtBoxSoundPath";
+            this.txtBoxSoundPath.ReadOnly = false;
+            this.txtBoxSoundPath.Size = new System.Drawing.Size(523, 29);
+            this.txtBoxSoundPath.TabIndex = 14;
+            this.txtBoxSoundPath.Text = "C:\\";
+            this.txtBoxSoundPath.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtBoxSoundPath.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtBoxSoundPath.UseSystemPasswordChar = false;
+            // 
+            // flatGroupBox1
+            // 
+            this.flatGroupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.flatGroupBox1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
+            this.flatGroupBox1.Controls.Add(this.importBtn);
+            this.flatGroupBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.flatGroupBox1.Location = new System.Drawing.Point(15, 55);
+            this.flatGroupBox1.Name = "flatGroupBox1";
+            this.flatGroupBox1.ShowText = true;
+            this.flatGroupBox1.Size = new System.Drawing.Size(358, 245);
+            this.flatGroupBox1.TabIndex = 17;
+            this.flatGroupBox1.Text = "                              Import your image";
             // 
             // importBtn
             // 
@@ -582,37 +735,6 @@
             this.importBtn.Text = "Browse .png file";
             this.importBtn.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
             this.importBtn.Click += new System.EventHandler(this.ImportBtn_Click_1);
-            // 
-            // btnCrypt
-            // 
-            this.btnCrypt.BackColor = System.Drawing.Color.Transparent;
-            this.btnCrypt.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
-            this.btnCrypt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCrypt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrypt.Location = new System.Drawing.Point(9, 182);
-            this.btnCrypt.Name = "btnCrypt";
-            this.btnCrypt.Rounded = false;
-            this.btnCrypt.Size = new System.Drawing.Size(164, 32);
-            this.btnCrypt.TabIndex = 16;
-            this.btnCrypt.Text = "Crypt the picture";
-            this.btnCrypt.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.btnCrypt.Click += new System.EventHandler(this.BtnCrypt_Click_1);
-            // 
-            // txtBoxSoundPath
-            // 
-            this.txtBoxSoundPath.BackColor = System.Drawing.Color.Transparent;
-            this.txtBoxSoundPath.FocusOnHover = false;
-            this.txtBoxSoundPath.Location = new System.Drawing.Point(14, 41);
-            this.txtBoxSoundPath.MaxLength = 32767;
-            this.txtBoxSoundPath.Multiline = false;
-            this.txtBoxSoundPath.Name = "txtBoxSoundPath";
-            this.txtBoxSoundPath.ReadOnly = false;
-            this.txtBoxSoundPath.Size = new System.Drawing.Size(341, 29);
-            this.txtBoxSoundPath.TabIndex = 14;
-            this.txtBoxSoundPath.Text = "C:\\";
-            this.txtBoxSoundPath.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtBoxSoundPath.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.txtBoxSoundPath.UseSystemPasswordChar = false;
             // 
             // flatMini1
             // 
@@ -660,6 +782,8 @@
             this.flatGroupBox2.PerformLayout();
             this.flatGroupBox3.ResumeLayout(false);
             this.flatGroupBox3.PerformLayout();
+            this.flatGroupBox5.ResumeLayout(false);
+            this.flatGroupBox5.PerformLayout();
             this.flatGroupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -670,11 +794,8 @@
         private FlatUI.FormSkin RSImage;
         private FlatUI.FlatMini flatMini1;
         private FlatUI.FlatClose flatClose1;
-        private FlatUI.FlatTextBox txtBoxSoundPath;
-        private FlatUI.FlatButton btnCrypt;
         private FlatUI.FlatGroupBox flatGroupBox1;
         private FlatUI.FlatButton importBtn;
-        private FlatUI.FlatAlertBox statusLbl;
         private FlatUI.FlatGroupBox flatGroupBox2;
         private FlatUI.FlatButton flatButton1;
         private FlatUI.FlatLabel flatLabel2;
@@ -704,8 +825,19 @@
         private FlatUI.FlatLabel flatLabel14;
         private FlatUI.FlatTextBox txtN;
         private FlatUI.FlatLabel lblD;
-        private FlatUI.FlatButton flatButton4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private FlatUI.FlatGroupBox flatGroupBox4;
+        private FlatUI.FlatGroupBox flatGroupBox5;
+        private FlatUI.FlatButton flatButton6;
+        private FlatUI.FlatButton flatButton7;
+        private FlatUI.FlatButton flatButton4;
+        private FlatUI.FlatAlertBox statusLbl;
+        private FlatUI.FlatTextBox txtBoxSoundPath;
+        private FlatUI.FlatButton flatButton5;
+        private FlatUI.FlatLabel flatLabel1;
+        private FlatUI.FlatToggle isExportKeyWanted;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private FlatUI.FlatToggle exportPic;
+        private FlatUI.FlatLabel flatLabel8;
     }
 }

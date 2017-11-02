@@ -36,7 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FlatUI">
-      <HintPath>..\..\..\FlatUI.dll</HintPath>
+      <HintPath>Resources\FlatUI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -91,9 +91,6 @@
   <ItemGroup>
     <Content Include="icon.ico" />
     <None Include="Resources\Android_O_Preview_Logo.png" />
-    <None Include="Resources\Infinity.gif" />
-    <None Include="Resources\waiting2.gif" />
-    <None Include="Resources\waiting.gif" />
     <None Include="Resources\icon.ico" />
   </ItemGroup>
   <ItemGroup>
