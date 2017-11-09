@@ -659,7 +659,7 @@
             this.statusLbl.Name = "statusLbl";
             this.statusLbl.Size = new System.Drawing.Size(382, 42);
             this.statusLbl.TabIndex = 19;
-            this.statusLbl.Text = "You need to import a sound";
+            this.statusLbl.Text = "You need to import a picture";
             this.statusLbl.Visible = false;
             // 
             // flatButton6
