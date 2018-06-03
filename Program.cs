@@ -172,21 +172,7 @@ public class RSAKey
 
     public static BigInteger ModInverse(BigInteger X, BigInteger Y)
     {
-        /* RAPPORT :
-        *
-        * Quel est le projet
-        * Qu'avons nous fait
-        * Comment on l'a fait
-        * Quels sont les problèmes
-        * Bien parler de maths
-        * Qu'avons-nous réalisé (screen, vidéo, etc.)
-        * ---
-        * Qu'avons-nous pensé du projet ?
-        * Que voulions-nous faire de plus ?
-        * ___________________
-        * 10min presentation, 5min questions
-        */
-
+ 
         List<List<BigInteger>> MatriceOperation = new List<List<BigInteger>>();
 
         BigInteger a, b, q, r;
